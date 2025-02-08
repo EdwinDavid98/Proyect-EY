@@ -78,3 +78,11 @@ Esto abrirá la interfaz gráfica, donde podrás seleccionar entre las siguiente
 
 # Ejecutar el Ejecutable
 Descarga y ejecuta el archivo main.exe ubicado en la carpeta`dist `  para correr la aplicación en una máquina Windows sin necesidad de instalar Python.
+
+## Resultados
+
+Puedes ver los resultados de este proyecto en acción en la siguiente página web, creada mediante GitHub Pages:
+
+[Visitar la página de Proyect-EY](https://edwindavid98.github.io/Proyect-EY/)
+
+En esta página se muestra una demostración interactiva de las funcionalidades del asistente de IA.

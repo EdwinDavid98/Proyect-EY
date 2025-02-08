@@ -43,7 +43,7 @@ def main():
     title_label = ttk.Label(main_frame, text="¡BIENVENIDOS USUARIOS EY!", font=("Helvetica", 20, "bold"))
     title_label.pack(pady=(0,10))
     
-    subtitle_label = ttk.Label(main_frame, text="EN QUE TE PODEMOS AYUDARTE EL DIA DE HOY", font=("Helvetica", 14))
+    subtitle_label = ttk.Label(main_frame, text="EN QUE PODEMOS AYUDARTE EL DIA DE HOY", font=("Helvetica", 14))
     subtitle_label.pack(pady=(0,10))
     
     subtitle2_label = ttk.Label(main_frame, text="TENEMOS LOS SIGUIENTES SERVICIOS", font=("Helvetica", 14))

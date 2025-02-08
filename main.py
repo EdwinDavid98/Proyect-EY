@@ -1,4 +1,17 @@
 import os
+import sys
+from dotenv import load_dotenv
+
+# Determinar la ruta base: si se ejecuta desde un ejecutable empaquetado, usar sys._MEIPASS
+if hasattr(sys, '_MEIPASS'):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.abspath(".")
+
+dotenv_path = os.path.join(base_path, ".env")
+load_dotenv(dotenv_path=dotenv_path)
+
+import os
 import tkinter as tk
 from tkinter import ttk
 from calculadora import lanzar_calculadora

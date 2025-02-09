@@ -67,7 +67,7 @@ Asegúrate de que el archivo `.env` esté configurado correctamente.
 Desde la raíz del proyecto, ejecuta:
 
 ```bash
-python3.11 mail.py
+python3.11 main.py
 ```
 
 Esto abrirá la interfaz gráfica, donde podrás seleccionar entre las siguientes funcionalidades:

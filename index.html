@@ -8,14 +8,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .banner {
-      background: url('https://via.placeholder.com/1500x400') no-repeat center center;
+      background: linear-gradient(to right, #007bff, #0056b3);
+      background-image: url('banner.png');
+      background-position: center;
       background-size: cover;
       height: 300px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #fff;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+      color: #000;
+      text-shadow: none;
     }
     .content-section {
       padding: 30px 15px;
@@ -23,6 +25,15 @@
     .btn-custom {
       font-size: 1.2rem;
       margin: 10px;
+      background-color: #FFD700;
+      color: #000;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #FFC107;
+    }
+    .capture {
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -37,8 +48,8 @@
 
   <!-- Sección de botones principales -->
   <section class="text-center py-4 bg-light">
-    <button class="btn btn-primary btn-custom">Descargar Proyecto (ZIP)</button>
-    <button class="btn btn-secondary btn-custom">Ver en GitHub</button>
+    <button class="btn btn-custom">Descargar Proyecto (ZIP)</button>
+    <button class="btn btn-custom">Ver en GitHub</button>
   </section>
 
   <!-- Sección de contenido -->
@@ -54,24 +65,70 @@
     </div>
   </section>
 
-  <!-- Sección de capturas de pantalla -->
-  <section class="content-section bg-light">
+  <!-- Sección de implementación del cálculo -->
+  <section class="content-section">
     <div class="container">
-      <h2>Capturas de Pantalla</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="https://via.placeholder.com/300" alt="Captura 1" class="img-fluid rounded">
-        </div>
-        <div class="col-md-4">
-          <img src="https://via.placeholder.com/300" alt="Captura 2" class="img-fluid rounded">
-        </div>
-        <div class="col-md-4">
-          <img src="https://via.placeholder.com/300" alt="Captura 3" class="img-fluid rounded">
-        </div>
-      </div>
+      <h2>Implementación del Cálculo Matemático</h2>
+      <p>Para realizar cálculos matemáticos básicos, el asistente utiliza una interfaz gráfica desarrollada con <code>tkinter</code>. Además, se implementa una validación mediante expresiones regulares para asegurar que la expresión ingresada por el usuario solo contenga números, operadores básicos y paréntesis. Esto evita errores y muestra una advertencia si se introducen caracteres no permitidos, garantizando la seguridad y precisión de los cálculos.</p>
     </div>
   </section>
 
+  <!-- Sección de capturas de pantalla -->
+  <section class="content-section bg-light">
+    <div class="container text-center">
+      <h2>Capturas de Pantalla</h2>
+      <div class="capture">
+        <img src="resultados/interfaz principal.png" alt="Captura 1" class="img-fluid rounded">
+        <p>Interfaz principal con menú de opciones.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/sumas.png" alt="Captura 2" class="img-fluid rounded">
+        <p>Ejemplo de una suma compleja procesada correctamente.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/resta.png" alt="Captura 3" class="img-fluid rounded">
+        <p>Ejemplo de una resta compleja procesada correctamente.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/multiplicacion.png" alt="Captura 4" class="img-fluid rounded">
+        <p>Ejemplo de una multiplicación compleja procesada correctamente.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/division.png" alt="Captura 5" class="img-fluid rounded">
+        <p>Ejemplo de una división compleja procesada correctamente.</p>
+      </div>
+    </div>
+  </section>
+<!-- Sección de implementación de manipulación de texto -->
+  <section class="content-section">
+    <div class="container">
+      <h2>Implementación de la Manipulación de Texto</h2>
+      <p>La funcionalidad de manipulación de texto permite al usuario realizar diversas operaciones sobre un texto ingresado. Estas operaciones incluyen:</p>
+      <ul>
+        <li><strong>Convertir a mayúsculas:</strong> Transforma todo el texto ingresado en letras mayúsculas.</li>
+        <li><strong>Convertir a minúsculas:</strong> Transforma todo el texto ingresado en letras minúsculas.</li>
+        <li><strong>Contar palabras:</strong> Cuenta el número total de palabras en el texto ingresado.</li>
+      </ul>
+      <p>La interfaz gráfica, también desarrollada con <code>tkinter</code>, permite ingresar el texto en un área de texto y seleccionar una de las opciones mencionadas. Si el usuario no introduce un texto válido, se muestra una advertencia para corregir la entrada.</p>
+    </div>
+  </section>
+  <section class="content-section bg-light">
+    <div class="container text-center">
+      <h2>Capturas de Pantalla</h2>
+      <div class="capture">
+        <img src="resultados/texto minuscula.png" alt="Captura 1" class="img-fluid rounded">
+        <p>Cambair a minúsculas un párrafo.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/texto mayusculas.png" alt="Captura 2" class="img-fluid rounded">
+        <p>Cambair a mayúsculas un párrafo.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/conteo palabras.png" alt="Captura 3" class="img-fluid rounded">
+        <p>Conteo de palabras en un párrafo.</p>
+      </div>
+  </section>
+  
   <!-- Footer -->
   <footer class="text-center py-4 bg-dark text-white">
     <p>&copy; 2025 Edwin. Todos los derechos reservados.</p>
@@ -81,5 +138,3 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-

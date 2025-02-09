@@ -23,6 +23,10 @@
     }
     .content-section {
       padding: 30px 15px;
+      margin: 20px 0;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
     .btn-custom {
       font-size: 1.2rem;
@@ -52,14 +56,15 @@
     </div>
   </header>
 
-<section class="text-center py-4 bg-light">
-  <a href="https://drive.google.com/file/d/1YPKEszNtVAztMopAMP74UvX1nJbniOpF/view?usp=sharing" class="btn btn-custom" target="_blank" download>
-    <i class="fas fa-file-zipper"></i> Descargar Ejecutable del Proyecto (windows)
-  </a>
-  <a href="https://github.com/EdwinDavid98/Proyect-EY" class="btn btn-custom" target="_blank">
-    <i class="fab fa-github"></i> Ver en GitHub
-  </a>
-</section>
+  <!-- Sección de botones principales -->
+  <section class="text-center py-4 bg-light">
+    <a href="https://drive.google.com/file/d/1YPKEszNtVAztMopAMP74UvX1nJbniOpF/view?usp=sharing" class="btn btn-custom" target="_blank" download>
+      <i class="fas fa-file-zipper"></i> Descargar Ejecutable del Proyecto (windows)
+    </a>
+    <a href="https://github.com/EdwinDavid98/Proyect-EY" class="btn btn-custom" target="_blank">
+      <i class="fab fa-github"></i> Ver en GitHub
+    </a>
+  </section>
 
   <!-- Sección de contenido -->
   <section class="content-section">
@@ -108,7 +113,8 @@
       </div>
     </div>
   </section>
-<!-- Sección de implementación de manipulación de texto -->
+
+  <!-- Sección de implementación de manipulación de texto -->
   <section class="content-section">
     <div class="container">
       <h2>Implementación de la Manipulación de Texto</h2>
@@ -121,22 +127,26 @@
       <p>La interfaz gráfica, también desarrollada con <code>tkinter</code>, permite ingresar el texto en un área de texto y seleccionar una de las opciones mencionadas. Si el usuario no introduce un texto válido, se muestra una advertencia para corregir la entrada.</p>
     </div>
   </section>
+
+  <!-- Sección de capturas de pantalla de manipulación de texto -->
   <section class="content-section bg-light">
     <div class="container text-center">
-      <h2>Resultados</h2>
+      <h2>Capturas de Pantalla - Manipulación de Texto</h2>
       <div class="capture">
-        <img src="resultados/texto minuscula.png" alt="Captura 1" class="img-fluid rounded">
-        <p>Cambair a minúsculas un párrafo.</p>
+        <img src="resultados/texto_interfaz.png" alt="Interfaz de manipulación de texto" class="img-fluid rounded">
+        <p>Interfaz donde el usuario ingresa el texto para manipularlo.</p>
       </div>
       <div class="capture">
-        <img src="resultados/texto mayusculas.png" alt="Captura 2" class="img-fluid rounded">
-        <p>Cambair a mayúsculas un párrafo.</p>
+        <img src="resultados/texto_mayusculas.png" alt="Texto convertido a mayúsculas" class="img-fluid rounded">
+        <p>Ejemplo de texto transformado a letras mayúsculas.</p>
       </div>
       <div class="capture">
-        <img src="resultados/conteo palabras.png" alt="Captura 3" class="img-fluid rounded">
-        <p>Conteo de palabras en un párrafo.</p>
+        <img src="resultados/texto_contar_palabras.png" alt="Conteo de palabras" class="img-fluid rounded">
+        <p>Resultado mostrando el número de palabras en el texto ingresado.</p>
       </div>
+    </div>
   </section>
+
   <!-- Sección de implementación de la integración con una API de lenguaje natural -->
   <section class="content-section">
     <div class="container">
@@ -157,21 +167,16 @@
     <div class="container text-center">
       <h2>Capturas de Pantalla - Integración con API</h2>
       <div class="capture">
-        <img src="resultados/Asistente IA 1.png" alt="Interfaz de integración con API" class="img-fluid rounded">
+        <img src="resultados/api_interfaz.png" alt="Interfaz de integración con API" class="img-fluid rounded">
         <p>Interfaz donde el usuario puede ingresar preguntas para la API.</p>
       </div>
       <div class="capture">
-        <img src="resultados/asistente ia 2png.png" alt="Respuesta de la API" class="img-fluid rounded">
-        <p>Respuesta generada por la API de OpenAI mostrando información contextual.</p>
-      </div>
-      <div class="capture">
-        <img src="resultados/asistente ia 3.png" alt="Respuesta de la API" class="img-fluid rounded">
+        <img src="resultados/api_respuesta.png" alt="Respuesta de la API" class="img-fluid rounded">
         <p>Respuesta generada por la API de OpenAI mostrando información contextual.</p>
       </div>
     </div>
-  </section>  
+  </section>
 
-  
   <!-- Footer -->
   <footer class="text-center py-4 bg-dark text-white">
     <p>&copy; 2025 Edwin. Todos los derechos reservados.</p>

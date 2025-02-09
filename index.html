@@ -8,16 +8,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     .banner {
-      background: linear-gradient(to right, #007bff, #0056b3); /* Fondo azul degradado */
-      background-image: url('banner.png'); /* Puedes reemplazar esto con la URL de tu imagen */
+      background: linear-gradient(to right, #007bff, #0056b3);
+      background-image: url('img/banner.jpg');
       background-position: center;
       background-size: cover;
       height: 300px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #000; /* Cambiado a negro */
-      text-shadow: none; /* Eliminada la sombra de texto */
+      color: #000;
+      text-shadow: none;
     }
     .content-section {
       padding: 30px 15px;
@@ -25,12 +25,15 @@
     .btn-custom {
       font-size: 1.2rem;
       margin: 10px;
-      background-color: #FFD700; /* Color amarillo mate */
+      background-color: #FFD700;
       color: #000;
       border: none;
     }
     .btn-custom:hover {
-      background-color: #FFC107; /* Color más oscuro al pasar el cursor */
+      background-color: #FFC107;
+    }
+    .capture {
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -69,31 +72,30 @@
       <p>Para realizar cálculos matemáticos básicos, el asistente utiliza una interfaz gráfica desarrollada con <code>tkinter</code>. Además, se implementa una validación mediante expresiones regulares para asegurar que la expresión ingresada por el usuario solo contenga números, operadores básicos y paréntesis. Esto evita errores y muestra una advertencia si se introducen caracteres no permitidos, garantizando la seguridad y precisión de los cálculos.</p>
     </div>
   </section>
+
   <!-- Sección de capturas de pantalla -->
   <section class="content-section bg-light">
-    <div class="container">
-      <h2>Resultados</h2>
-      <div class="row">
-        <div class="col-md-4 text-center mb-4">
-          <img src="resultados/interfaz principal.png" alt="Captura 1" class="img-fluid rounded">
-          <p>Interfaz principal con menú de opciones.</p>
-        </div>
-        <div class="col-md-4 text-center mb-4">
-          <img src="resultados/sumas.png" alt="Captura 2" class="img-fluid rounded">
-          <p>Expresión matemática válida ingresada.</p>
-        </div>
-        <div class="col-md-4 text-center mb-4">
-          <img src="resultados/resta.png" alt="Captura 3" class="img-fluid rounded">
-          <p>Resultado mostrado al usuario después del cálculo.</p>
-        </div>
-        <div class="col-md-4 text-center mb-4">
-          <img src="resultados/multiplicacion.png" alt="Captura 4" class="img-fluid rounded">
-          <p>Expresión inválida con advertencia de error.</p>
-        </div>
-        <div class="col-md-4 text-center mb-4">
-          <img src="resultados/division.png" alt="Captura 5" class="img-fluid rounded">
-          <p>Ejemplo de una operación compleja procesada correctamente.</p>
-        </div>
+    <div class="container text-center">
+      <h2>Capturas de Pantalla</h2>
+      <div class="capture">
+        <img src="resultados/interfaz principal.png" alt="Captura 1" class="img-fluid rounded">
+        <p>Interfaz principal con menú de opciones.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/sumas.png" alt="Captura 2" class="img-fluid rounded">
+        <p>Expresión matemática válida ingresada.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/resta.png" alt="Captura 3" class="img-fluid rounded">
+        <p>Resultado mostrado al usuario después del cálculo.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/multiplicacion.png" alt="Captura 4" class="img-fluid rounded">
+        <p>Expresión inválida con advertencia de error.</p>
+      </div>
+      <div class="capture">
+        <img src="resultados/division.png" alt="Captura 5" class="img-fluid rounded">
+        <p>Ejemplo de una operación compleja procesada correctamente.</p>
       </div>
     </div>
   </section>
@@ -107,4 +109,3 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-  

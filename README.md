@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB900,100:FFD700&height=200&section=header&text=Proyect-EY%20Asistente%20de%20IA&fontSize=60&fontColor=FFFFFF&animation=fadeIn"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB900,100:FFD700&height=200&section=header&text=Proyecto-EY%20Asistente%20de%20IA&fontSize=60&fontColor=FFFFFF&animation=fadeIn"/>
   
   <h2>Aplicación Modular de Asistente de IA en Python</h2>
   <p>Integrando funcionalidades como calculadora, manipulación de texto y chat inteligente con OpenAI.</p>

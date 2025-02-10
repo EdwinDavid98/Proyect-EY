@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB900,100:FFD700&height=200&section=header&text=Proyect-EY%20Asistente%20de%20IA&fontSize=60&fontColor=FFFFFF&animation=fadeIn"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB900,100:FFD700&height=200&section=header&text=Proyecto-EY%20Asistente%20de%20IA&fontSize=60&fontColor=FFFFFF&animation=fadeIn"/>
   
   <h2>Aplicación Modular de Asistente de IA en Python</h2>
   <p>Integrando funcionalidades como calculadora, manipulación de texto y chat inteligente con OpenAI.</p>
@@ -17,7 +17,7 @@
 </div>
 
 
-# Proyect-EY
+# Proyecto-EY
 Asistente de IA en Python Aplicación modular con interfaz gráfica (Tkinter) que integra funcionalidades como una calculadora, herramientas de manipulación de texto y un chat inteligente usando la API de OpenAI. Ideal para demostrar habilidades en desarrollo de software e inteligencia artificial.
 
 ## Características
@@ -67,7 +67,7 @@ Asegúrate de que el archivo `.env` esté configurado correctamente.
 Desde la raíz del proyecto, ejecuta:
 
 ```bash
-python3.11 mail.py
+python3.11 main.py
 ```
 
 Esto abrirá la interfaz gráfica, donde podrás seleccionar entre las siguientes funcionalidades:
